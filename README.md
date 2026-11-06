@@ -6,7 +6,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
   <a href="https://openbot.run/"><img src="https://img.shields.io/badge/OpenBot-tested_on_0.62-6E56CF" alt="Tested on OpenBot 0.62"></a>
   <a href="https://agentskills.io"><img src="https://img.shields.io/badge/Agent_Skill-SKILL.md-4FD1C5" alt="Agent Skill"></a>
-  <a href="https://skills.sh/kkunkunya/use-openbot"><img src="https://skills.sh/b/kkunkunya/use-openbot" alt="skills.sh"></a>
 </p>
 
 <p align="center">
