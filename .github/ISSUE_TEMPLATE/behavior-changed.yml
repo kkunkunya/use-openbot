@@ -1,0 +1,27 @@
+name: OpenBot behaves differently
+description: A tool no longer works the way the skill says.
+labels: [behavior-change]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: OpenBot version
+      placeholder: "0.62.0"
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Agent provider
+      placeholder: "Claude, Codex, ..."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The tool you called and the exact message or error it returned.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the skill says

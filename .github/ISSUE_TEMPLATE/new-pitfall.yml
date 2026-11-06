@@ -1,0 +1,14 @@
+name: New pitfall or idea
+description: Something agents get wrong in OpenBot that the skill should cover.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: pitfall
+    attributes:
+      label: What goes wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What the agent should do instead

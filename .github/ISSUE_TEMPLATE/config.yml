@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: OpenBot itself
+    url: https://github.com/nightly-labs/openbot/issues
+    about: Bugs in OpenBot belong to the OpenBot repo, not here.

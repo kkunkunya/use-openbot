@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1222"/><stop offset="1" stop-color="#1F1747"/>
+    </linearGradient>
+    <linearGradient id="lane" gradientUnits="userSpaceOnUse" x1="240" y1="0" x2="520" y2="0">
+      <stop offset="0" stop-color="#8B7CFF"/><stop offset="1" stop-color="#4FD1C5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <g transform="translate(96,128)">
+    <rect width="144" height="144" rx="36" fill="#6E56CF"/>
+    <circle cx="52" cy="62" r="10" fill="#fff"/><circle cx="92" cy="62" r="10" fill="#fff"/>
+    <path d="M44 96 Q72 116 100 96" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  <g stroke="url(#lane)" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M240 200 C300 200 300 120 360 120 H520"/>
+    <path d="M240 200 H520"/>
+    <path d="M240 200 C300 200 300 280 360 280 H520"/>
+  </g>
+  <g fill="#4FD1C5"><circle cx="520" cy="120" r="9"/><circle cx="520" cy="200" r="9"/><circle cx="520" cy="280" r="9"/></g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#C9C3FF" font-size="20">
+    <text x="540" y="127">project A</text><text x="540" y="207">project B</text><text x="540" y="287">project C</text>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="720" y="180" font-size="72" font-weight="700" fill="#FFFFFF">use-openbot</text>
+    <text x="722" y="232" font-size="28" fill="#C9C3FF">One agent. Many projects. In parallel.</text>
+    <text x="722" y="278" font-size="20" fill="#8F8AB8">An Agent Skill for OpenBot agents</text>
+  </g>
+</svg>
